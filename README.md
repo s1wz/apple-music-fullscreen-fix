@@ -11,6 +11,8 @@ A Firefox WebExtension that forces the Apple Music lyrics modal to display in fu
 
 ## Installation
 
+**⚠️ Note: This extension is not signed by Mozilla/Firefox, so it cannot be installed as a regular add-on. Use the methods below instead.**
+
 ### Method 1: From GitHub Release (Recommended)
 1. Go to the [Releases page](https://github.com/s1wz/apple-music-fullscreen-fix/releases)
 2. Download the latest `apple-music-fullscreen.zip` file
@@ -28,6 +30,13 @@ A Firefox WebExtension that forces the Apple Music lyrics modal to display in fu
 3. Navigate to the extension folder and select `manifest.json`
 4. The extension will now be active on Apple Music pages
 
+### Permanent Installation (Developer Mode)
+1. Load as temporary add-on first (steps above)
+2. In the debugging page, find your loaded extension
+3. Click the gear icon next to your extension
+4. Select "Install as permanent add-on"
+5. The extension will now be permanently installed
+
 ## Development
 
 To modify the extension:
@@ -38,5 +47,6 @@ To modify the extension:
 ## License
 
 MIT License - feel free to use and modify as needed.
+
 
 
