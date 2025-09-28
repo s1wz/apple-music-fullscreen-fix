@@ -1,0 +1,17 @@
+/* Force lyrics modal to fullscreen */
+#modal-content-wrapper {
+  width: 100vw !important;
+  height: 100vh !important;
+  max-width: none !important;
+  max-height: none !important;
+  border-radius: 0 !important;
+}
+
+.modal {
+  inset: 0 !important; /* Stretch to viewport edges */
+}
+
+.lyrics__container {
+  height: 100% !important;
+}
+
