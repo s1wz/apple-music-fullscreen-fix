@@ -7,13 +7,12 @@ A Firefox WebExtension that forces the Apple Music lyrics modal to display in fu
 - Forces lyrics modal to use full viewport dimensions (100vw × 100vh)
 - Works on vertical monitors
 - Lightweight and minimal
-- No unnecessary permissions required
-- Automatic detection of lyrics modal using MutationObserver
+- - Automatic detection of lyrics modal using MutationObserver
 
 ## Installation
 
 ### Method 1: From GitHub Release (Recommended)
-1. Go to the [Releases page](https://github.com/YOUR_USERNAME/apple-music-fullscreen/releases)
+1. Go to the [Releases page](https://github.com/s1wz/apple-music-fullscreen/releases)
 2. Download the latest `apple-music-fullscreen.zip` file
 3. Extract the zip file to a folder on your computer
 4. Follow the "Load Extension" steps below
@@ -29,23 +28,6 @@ A Firefox WebExtension that forces the Apple Music lyrics modal to display in fu
 3. Navigate to the extension folder and select `manifest.json`
 4. The extension will now be active on Apple Music pages
 
-## Usage
-
-1. Go to [music.apple.com](https://music.apple.com)
-2. Play any song that has lyrics
-3. Click the lyrics button to open the fullscreen lyrics modal
-4. The modal will now stretch to fill your entire viewport
-
-## Technical Details
-
-- **Manifest Version**: 3
-- **Target**: `*://music.apple.com/*`
-- **Permissions**: None required (content script only)
-- **Files**: 
-  - `manifest.json` - Extension configuration
-  - `content.css` - CSS overrides for fullscreen display
-  - `content.js` - JavaScript with MutationObserver for dynamic detection
-
 ## Development
 
 To modify the extension:
@@ -56,3 +38,4 @@ To modify the extension:
 ## License
 
 MIT License - feel free to use and modify as needed.
+
